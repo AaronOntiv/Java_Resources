@@ -15,7 +15,7 @@ public class Factura {
         }
 
         if(precioUnitario>=0){
-            precioUnitario=precioUnitario;
+            this.precioUnitario=precioUnitario;
         }
         else {
             precioUnitario=0;
@@ -36,4 +36,6 @@ public class Factura {
     public double getMontoFactura(){
         return numArticulos*precioUnitario;
     }
+
+
 }
