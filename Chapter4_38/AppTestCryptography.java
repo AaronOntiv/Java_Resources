@@ -17,12 +17,5 @@ public class AppTestCryptography {
         System.out.printf("User2 received %d\n",user2.getMessageRece());
         System.out.printf("User2 Decrepty as: %d\n", user2.decrypt());
 
-
-
-
-
-
-
-
     }
 }
