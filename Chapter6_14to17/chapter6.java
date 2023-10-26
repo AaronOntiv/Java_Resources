@@ -14,7 +14,7 @@ public class chapter6 {
         System.out.println("Welcome");
         int aux=1;
         while (aux!=0){
-            System.out.println("\nPress\n1: For Floor\n2: For Ceil\n3: Hypotenuse Calculation\n4: Multiples\n5: Divisible by 5\n99: For exit\n");
+            System.out.println("\nPress\n1: For Floor\n2: For Ceil\n3: Hypotenuse Calculation\n4: Multiples\n5: Divisible by 5\n0: For exit\n");
             aux=entrada.nextInt();
             switch (aux){
                 case 1:
@@ -40,6 +40,11 @@ public class chapter6 {
                     System.out.printf("Dame numero para ver si es multiplo de %d:\n",num1);
                     int num2=entrada.nextInt();
                     isMultiple(num1,num2);
+                    break;
+                case 5:
+                    System.out.println("Give me number and check wheter is divible by 5 or not ");
+                    int num3=entrada.nextInt();
+                    System.out.printf("The number %d is divisible by 5: %s",num3,isDivisible(num3));
                     break;
                 case 0:
                     break;
@@ -75,6 +80,13 @@ public class chapter6 {
             System.out.println("No es multiplo");
         }else {
             System.out.println("es multiplo");
+        }
+    }
+    public static boolean isDivisible(int a){
+        if(a%5!=0){
+            return false;
+        }else {
+            return true;
         }
     }
 }
