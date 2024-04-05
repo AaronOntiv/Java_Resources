@@ -1,3 +1,22 @@
+6.8 (Cargos por estacionamiento) Un estacionamiento cobra una cuota mínima de $2.00 por estacionarse hasta
+tres horas. El estacionamiento cobra $0.50 adicionales por cada hora o fracción que se pase de tres horas. El cargo
+máximo para cualquier periodo dado de 24 horas es de $10.00. Suponga que ningún auto se estaciona durante más
+de 24 horas seguidas. Escriba una aplicación que calcule y muestre los cargos por estacionamiento para cada cliente
+que se haya estacionado ayer. Debe introducir las horas de estacionamiento para cada cliente. El programa debe mostrar
+el cargo para el cliente actual así como calcular y mostrar el total corriente de los recibos de ayer. El programa debe
+utilizar el método calcularCargos para determinar el cargo para cada cliente.
+6.8 (Parking Charges) A parking garage charges a $2.00 minimum fee to park for up to three
+hours. The garage charges an additional $0.50 per hour for each hour or part thereof in excess of three
+hours. The maximum charge for any given 24-hour period is $10.00. Assume that no car parks for
+longer than 24 hours at a time. Write an application that calculates and displays the parking charges
+for each customer who parked in the garage yesterday. You should enter the hours parked for each
+customer. The program should display the charge for the current customer and should calculate and
+display the running total of yesterday’s receipts. It should use the method calculateCharges to determine
+the charge for each customer.
+(Parking.java/ParkingText.java)
+
+
+
 6.14 (Floor and Ceil) Write two methods myFloor and myCeil that take a positive double num
 variable int myFloor(double num) and int myCeil(double num).
 The myFloor method takes num and returns the largest integer number that is less than or equal to x.
@@ -19,3 +38,5 @@ time) and determines whether the second value in each pair is a multiple of the 
 whether ten input integers are divisible by 5 or not. The method should take an integer argument
 and return true if the integer is divisible by 5 and false otherwise. Incorporate this method
 into an application that inputs a sequence of integers (one at a time) and determines the result.
+
+
